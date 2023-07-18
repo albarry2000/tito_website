@@ -11,7 +11,7 @@ const Navbar = () => {
             className="hidden h-[50px] dark:block"
           />
           <img
-            src="src/images/logo/tito.svg"
+            src="src/images/logo/logo-light.svg"
             alt="logo"
             className="h-[50px] dark:hidden"
           />
@@ -84,7 +84,7 @@ const Navbar = () => {
       </div>
       <div className="absolute top-1/2 right-5 z-50 flex -translate-y-1/2 items-center lg:static lg:translate-y-0">
         <label
-          for="darkToggler"
+          htmlFor="darkToggler"
           className="bg-gray-2 dark:bg-dark-bg z-40 relative flex h-9 w-9 cursor-pointer items-center justify-center rounded-full text-black dark:text-white md:h-14 md:w-14"
         >
           <input
